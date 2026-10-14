@@ -2,9 +2,7 @@
 
 ## Sobre o projeto
 
-Este projeto analisa a adequação do tratamento materno nos casos notificados de sífilis congênita no estado do Piauí, utilizando dados do Sistema de Informação de Agravos de Notificação (SINAN), disponibilizados pelo DATASUS.
-
-O estudo investiga se o diagnóstico da sífilis durante o pré-natal é acompanhado pela realização do tratamento materno adequado, além de analisar a evolução temporal dessa proporção.
+Este projeto analisa a adequação do tratamento materno nos casos notificados de sífilis congênita no estado do Piauí, utilizando dados do Sistema de Informação de Agravos de Notificação (SINAN), disponibilizados pelo DATASUS. O estudo investiga se o diagnóstico da sífilis durante o pré-natal é acompanhado pela realização do tratamento materno adequado, além de analisar a evolução temporal dessa proporção.
 
 A pesquisa foi desenvolvida em R, aplicando métodos estatísticos descritivos e não paramétricos.
 
@@ -33,7 +31,6 @@ Os registros ignorados ou sem informação válida foram tratados conforme os cr
 ### 2. Análise descritiva
 
 Foram calculadas frequências absolutas e relativas dos tratamentos adequados, inadequados e não realizados, segundo o momento do diagnóstico materno.
-
 Essa etapa permitiu descrever a distribuição do tratamento nos registros analisados.
 
 ### 3. Análise da tendência temporal
@@ -44,7 +41,7 @@ Para cada ano, calculou-se a proporção de tratamentos adequados entre os regis
 
 #### Teste de Mann-Kendall
 
-O teste não paramétrico de Mann-Kendall foi utilizado para avaliar a existência de uma tendência monotônica nos percentuais anuais de tratamento adequado.
+O teste não paramétrico de Mann-Kendall foi utilizado para avaliar a existência de uma tendência de aumento ou diminuição nos percentuais anuais de tratamento adequado.
 
 - **Hipótese nula (H₀):** não há evidência de tendência monotônica.
 - **Hipótese alternativa (H₁):** existe uma tendência monotônica.
