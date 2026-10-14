@@ -100,7 +100,7 @@ A elevada frequência de tratamentos inadequados ou não realizados entre os cas
 
 Embora o diagnóstico durante o pré-natal represente uma oportunidade para o tratamento oportuno, os resultados mostram que sua realização adequada não está garantida nos registros estudados.
 
-A evolução temporal apresentou oscilações, e o teste de Mann-Kendall não encontrou evidência estatística suficiente de tendência monotônica ao nível de significância de 5%.
+A evolução temporal apresentou oscilações, e o teste de Mann-Kendall não encontrou evidência estatística suficiente de tendência de aumento ou diminuição ao nível de significância de 5%.
 
 Os achados reforçam a importância de investigar fatores que possam dificultar a efetivação do tratamento adequado durante o acompanhamento pré-natal.
 
