@@ -24,7 +24,7 @@ Os dados correspondem a notificações de casos de sífilis congênita, não à 
 
 ### 1. Tratamento e organização dos dados
 
-Os dados foram importados e organizados utilizando R. Foram selecionadas variáveis relacionadas ao ano da notificação, ao momento do diagnóstico materno e à classificação do tratamento.
+Os dados foram importados e organizados utilizando R. Foram selecionadas variáveis relacionadas ao ano da notificação, ao momento do diagnóstico materno, classificação do tratamento e município de residência.
 
 Os registros ignorados ou sem informação válida foram tratados conforme os critérios definidos para cada análise.
 
@@ -36,7 +36,6 @@ Essa etapa permitiu descrever a distribuição do tratamento nos registros anali
 ### 3. Análise da tendência temporal
 
 A análise temporal considerou os anos de 2015 a 2024 e as mães cujo diagnóstico foi registrado durante o pré-natal. O ano de 2025 foi excluído dessa etapa por poder apresentar dados incompletos.
-
 Para cada ano, calculou-se a proporção de tratamentos adequados entre os registros válidos de tratamento.
 
 #### Teste de Mann-Kendall
@@ -51,7 +50,6 @@ Foi adotado nível de significância de 5%.
 #### Inclinação de Sen
 
 A inclinação de Sen foi utilizada para estimar a direção e a magnitude da tendência temporal, expressa em pontos percentuais por ano.
-
 O teste de Mann-Kendall avalia a evidência estatística de tendência, enquanto a inclinação de Sen estima a variação anual típica da série.
 
 ## Resultados
@@ -59,10 +57,9 @@ O teste de Mann-Kendall avalia a evidência estatística de tendência, enquanto
 ### Tratamento materno segundo o momento do diagnóstico
 
 A análise descritiva identificou elevada frequência de tratamento inadequado ou não realizado nos registros de sífilis congênita analisados.
+Entre as mães diagnosticadas durante o pré-natal, apenas 5,9% receberam tratamento adequado na análise descritiva correspondente.
 
-Entre as mães diagnosticadas durante o pré-natal, 5,9% receberam tratamento adequado na análise descritiva correspondente.
-
-Esse resultado evidencia que o diagnóstico durante o pré-natal não garante, por si só, a realização do tratamento materno adequado.
+Esse resultado evidencia que o diagnóstico durante o pré-natal, momento que a saúde da gestante deveria ser tratada, não garante a realização do tratamento materno adequado.
 
 ### Evolução temporal do tratamento adequado
 
@@ -80,7 +77,6 @@ Os percentuais anuais de tratamento adequado entre as mães diagnosticadas duran
 | 2022 | 8,0% |
 | 2023 | 5,4% |
 | 2024 | 7,1% |
-
 Os percentuais apresentaram oscilações ao longo do período, com pico de 10,7% em 2019.
 
 ### Resultados dos testes de tendência
@@ -90,25 +86,17 @@ Os percentuais apresentaram oscilações ao longo do período, com pico de 10,7%
 - **Inclinação de Sen:** +0,47 ponto percentual por ano
 - **Nível de significância:** 5%
 
-O teste de Mann-Kendall não identificou evidência estatística suficiente de tendência monotônica, pois o valor de p foi superior a 0,05.
-
-A inclinação de Sen foi positiva, indicando aumento estimado de 0,47 ponto percentual por ano. Entretanto, essa estimativa não comprova, isoladamente, uma melhora estatisticamente significativa.
+O teste de Mann-Kendall não identificou evidência estatística suficiente de tendência de aumento ou diminuição, pois o valor de p foi superior a 0,05.
+A inclinação de Sen foi positiva, indicando aumento estimado de 0,47 ponto percentual por ano. Entretanto, essa estimativa não comprova, isoladamente, uma melhora estatisticamente significativa e continua sendo um crescimento desacelerado.
 
 ## Discussão
 
-A elevada frequência de tratamentos inadequados ou não realizados entre os casos analisados aponta para uma questão relevante de saúde pública.
-
-Embora o diagnóstico durante o pré-natal represente uma oportunidade para o tratamento oportuno, os resultados mostram que sua realização adequada não está garantida nos registros estudados.
-
-A evolução temporal apresentou oscilações, e o teste de Mann-Kendall não encontrou evidência estatística suficiente de tendência de aumento ou diminuição ao nível de significância de 5%.
-
-Os achados reforçam a importância de investigar fatores que possam dificultar a efetivação do tratamento adequado durante o acompanhamento pré-natal.
+A elevada frequência de tratamentos inadequados ou não realizados evidencia fragilidades na efetivação do cuidado. Apesar da oportunidade de intervenção durante o pré-natal, o diagnóstico não garante tratamento adequado. A série temporal apresentou oscilações, sem tendência estatisticamente significativa (Mann-Kendall; p > 0,05), reforçando a necessidade de investigar barreiras ao tratamento oportuno.
 
 ## Limitações
 
 - A base contempla notificações de casos de sífilis congênita, não todas as gestantes com sífilis.
-- A qualidade dos resultados depende da completude e da consistência das informações registradas.
-- Os dados de 2025 podem ser parciais.
+- Os dados de 2025 são parciais(até julho).
 - Os percentuais anuais podem apresentar diferentes níveis de precisão devido aos diferentes tamanhos amostrais.
 - O teste de Mann-Kendall aplicado aos percentuais anuais não considera diretamente o número de registros de cada ano.
 - Os resultados não identificam as causas do tratamento inadequado ou não realizado e não permitem estabelecer relações causais.
