@@ -31,7 +31,7 @@ Entre as gestantes diagnosticadas durante o pré-natal, **5,9%** receberam trata
 Na análise de sensibilidade sobre os percentuais anuais, o teste de Mann-Kendall **não foi significativo** (τ = 0,42; p = 0,108), com inclinação de Sen de +0,47 ponto percentual por ano. Esse teste não considera o número de casos de cada ano, o que explica a diferença para a regressão logística.
 
 ## Interpretação
-Entre as mães diagnosticadas ainda no pré-natal, a grande maioria não teve tratamento adequado. Isso sugere falhas entre o diagnóstico e a conclusão do tratamento no acompanhamento pré-natal, embora o aumento de 1,9% para 7,1% mostre melhora gradual. Os dados não permitem identificar a causa (início tardio, esquema incompleto, entre outras).
+**Interpretação:** Entre as mães diagnosticadas durante o pré-natal, a grande maioria não recebeu tratamento adequado. Embora a proporção de tratamento adequado tenha aumentado de 1,9% em 2015 para 7,1% em 2024, essa tendência não foi estatisticamente significativa pelo teste de Mann-Kendall (p = 0,108; α = 5%). Os resultados sugerem limitações importantes na efetivação do tratamento após o diagnóstico, reforçando a necessidade de investigar os fatores que dificultam a conclusão adequada do tratamento durante o pré-natal.
 
 ## Estrutura do repositório
 
