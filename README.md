@@ -3,7 +3,7 @@
 Análise descritiva e de tendência da proporção de **tratamento materno adequado** entre mães com sífilis diagnosticada **durante o pré-natal**, a partir de casos notificados de sífilis congênita no Piauí (SINAN/DATASUS).
 
 ## Pergunta
-Entre as gestantes que tiveram a sífilis diagnosticada no pré-natal e cujo filho foi notificado com sífilis congênita, qual a proporção que recebeu tratamento adequado e como essa proporção evoluiu entre 2015 e 2024?
+Entre as gestantes que tiveram a sífilis diagnosticada no pré-natal, qual a proporção que recebeu tratamento adequado e como essa proporção evoluiu entre 2015 e 2024?
 
 ## Fonte e população
 - **Fonte:** Sistema de Informação de Agravos de Notificação (SINAN), via DATASUS (arquivos `SIFC`, pasta PRELIM do FTP).
