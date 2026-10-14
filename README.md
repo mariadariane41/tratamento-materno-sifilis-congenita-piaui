@@ -31,7 +31,7 @@ Entre as gestantes diagnosticadas durante o pré-natal, **5,9%** receberam trata
 Na análise de sensibilidade sobre os percentuais anuais, o teste de Mann-Kendall **não foi significativo** (τ = 0,42; p = 0,108), com inclinação de Sen de +0,47 ponto percentual por ano. Esse teste não considera o número de casos de cada ano, o que explica a diferença para a regressão logística.
 
 ## Interpretação
-Entre as mães diagnosticadas ainda no pré-natal, cujos filhos mesmo assim foram notificados com sífilis congênita, a grande maioria não teve tratamento adequado. Isso sugere falhas entre o diagnóstico e a conclusão do tratamento no acompanhamento pré-natal, embora o aumento de 1,9% para 7,1% mostre melhora gradual. Os dados não permitem identificar a causa (início tardio, esquema incompleto, entre outras).
+Entre as mães diagnosticadas ainda no pré-natal, a grande maioria não teve tratamento adequado. Isso sugere falhas entre o diagnóstico e a conclusão do tratamento no acompanhamento pré-natal, embora o aumento de 1,9% para 7,1% mostre melhora gradual. Os dados não permitem identificar a causa (início tardio, esquema incompleto, entre outras).
 
 ## Estrutura do repositório
 
