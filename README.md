@@ -9,7 +9,7 @@ Entre as gestantes que tiveram a sífilis diagnosticada no pré-natal e cujo fil
 - **Fonte:** Sistema de Informação de Agravos de Notificação (SINAN), via DATASUS (arquivos `SIFC`, pasta PRELIM do FTP).
 - **População:** casos notificados de sífilis congênita em residentes do Piauí, de 2015 a julho de 2025 (n = 3.812).
 - **Recorte da análise:** mães com diagnóstico durante o pré-natal (`ANTSIFIL_N` = 1) e esquema de tratamento válido (`TRA_ESQUEM` = 1, 2 ou 3), n = 1.614.
-- **Data do download:** `AAAA-MM-DD` *(preencher; a base PRELIM é atualizada ao longo do tempo)*.
+- **Data do download:** `13-10-2026` *(a base PRELIM é atualizada ao longo do tempo)*.
 
 ## Definições
 - **Tratamento adequado** (`TRA_ESQUEM` = 1): tratamento completo com penicilina benzatina, em doses adequadas ao estágio clínico da sífilis, com início até 30 dias antes do parto (critério do Ministério da Saúde).
